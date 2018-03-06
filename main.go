@@ -8,14 +8,6 @@ const (
 	jdkPath      = "D:/distri/jdk-7u80-windows-x64.exe"
 )
 
-func installWeblogic() {
-
-	/*temppath := `C:\temp\wls1036_generic.jar`
-	cmd := exec.Command("java.exe -jar " + temppath)
-	err := cmd.Run()
-	fmt.Printf("Command finished with error: %v", err)*/
-}
-
 func main() {
 
 	installJava(jdkPath)
@@ -48,6 +40,6 @@ func main() {
 			}
 		}*/
 
-	installWeblogic()
+	installWeblogic(weblogicPath)
 
 }
